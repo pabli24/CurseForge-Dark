@@ -1,15 +1,15 @@
 /* ==UserStyle==
-@name           CurseForge.com - Dark Theme
+@name           Legacy.CurseForge.com - Dark Theme
 @namespace      https://greasyfork.org/en/users/124677-pabli
 @homepageURL    https://github.com/pabli24/CurseForge-Dark
 @supportURL     https://github.com/pabli24/CurseForge-Dark/issues
-@version        1.0.4
-@description    Dark Theme for curseforge.com
+@version        1.0.5
+@description    Dark Theme for Legacy curseforge.com website
 @author         Pabli
 @license        CC-BY-NC-4.0
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://www.curseforge.com") {
+@-moz-document regexp("https?:\/\/legacy\.curseforge\.com.*") {
 
 /* background */
 .root-content {
